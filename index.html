@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta name="description" content="Danesh Udachia Portfolio">
+    <meta name="keywords" content="Danesh, Udachia, Portfolio, HTML, CSS, Javascript">
+    <meta name="author" content="Danesh Udachia">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="user.jpg" type="image/x-icon"/>
+    <title>Danesh Udachia</title>
+    <script src="https://kit.fontawesome.com/79621c61c0.js" crossorigin="anonymous"></script>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T2CKTW37');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T2CKTW37"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<!--Header Section-->
+    <div id="header" class="bg-wavy">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Portfolio</p>
+                <h1>Welcome, I'm<span> Danesh</span> <br>this is my portfolio</h1>
+            </div>
+        </div>
+    </div>
+
+<!--About Section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imgabout.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hello! I'm Danesh Udachia, an enthusiastic front-end developer with a passion for creating visually appealing and user-friendly web experiences. 
+                    While I'm still gaining experience in the field, I've developed a strong foundation in HTML, CSS, and JavaScript, along with a growing familiarity with modern front-end frameworks. 
+                    I enjoy the creative process of transforming ideas into interactive, responsive websites that provide a seamless user experience.
+                     My goal is to continuously learn and improve, staying updated with the latest trends and technologies in front-end development. When I'm not coding, I love exploring
+                     new design concepts and collaborating on exciting projects. I'm excited to bring my creativity and dedication to your next project!. 
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"  onclick="opentab('about-content')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="about-content">
+                    <ul>
+                        <li><span>HTML</span><br>I have a solid understanding of HTML, allowing me to <br>structure web content effectively and semantically.</li>
+                        <li><span>CSS</span><br>I'm proficient in CSS, enabling me to create responsive <br>and visually appealing web designs.</li>
+                        <li><span>JAVASCRIPT</span><br>I have foundational knowledge of JavaScript, which<br> helps me add interactivity and dynamic functionality to websites</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Courses</span><br>Have completed the HTML and CSS courses on Codecademy</li>
+                        <li><span>Javascript</span><br>I have also completed various JS projects while also completing<br> the Javascript course on Codecademy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Services Section-->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Bronze Web Package</h2>
+                <p> In my Bronze Website Package, I promise certain things such as a fully custom design tailored to my clients needs, including up to 4 designed pages. These page layouts will be decided by the client.
+                    A fully responsive design, working on phones, tablets and other devices. The bronze package also entails the client to a custom contact form, to get their customers intouch. As well as this I will be able to 
+                    integrate my clients social media profiles such as icons. Finally I will also provide hosting assistance to the client, the first 30 days after the inital hosting. 
+                    <br><br>The pricing will be $100 Australian Dollars </p>
+                     
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Silver Web Package</h2>
+                <p>In my Silver Website Package, I promise the same as the Bronze design, except I upgrade certain features such as the pages, instead of 4 designed pages I do 6 custom designed pages.
+                   As well as this I can also make the layout, meaning I will be the one designing the pages and the layouts of the website. I will also be building a slightly more advanced contact page, being able to 
+                    drop files into the contact page. I will also be able to add galleries or certain other sections to the website. <br><br>
+                    The pricing will be $150 Australian Dollars </p>
+                     
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Gold Web Package</h2>
+                <p>In our Gold Website Package, we promise to deliver professionalism with up to 10 custom-designed pages. 
+                    We will craft the layout, carefully selecting design principles and elements to enhance your brand's identity. This tier will provide exceptional functionality using Javascript too enhance it's usability.This package includes various pages such as contact pages, galleries, portfolios, and libraries, all customizable based on client requests.
+                     Our goal is to provide a polished and professional website that truly reflects your business.<br><br>
+                    The pricing will be $200 Australian Dollars </p>
+                     
+            </div>
+        </div>
+    </div>
+</div>
+<!--Portfolio Section-->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imgport.jpg" class="port-img">
+                <div class="layer">
+                    <h3>Arsenal History Page</h3>
+                    <p>This website is a perfect display of my design abilites and my frontend abilites, this is an Arsenal history page, made to showcase my abilities in basic HTML and CSS and my frontend capabilites.</p>
+                    <a href="https://thevaultafc.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgport2.jpg" class="port-img">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This website is a perfect display of my functional abilites and my abilites regarding Javascript. This is a weather app not made for its design but it's functionality using Javascript and a bit of HTML and CSS</p>
+                    <a href="https://daneshweatherapp.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="siuu.png" class="port-img">
+                <div class="layer">
+                    <h3>Calculator App</h3>
+                    <p>A user-friendly calculator app designed for quick and easy arithmetic calculations, featuring a clean interface and basic functions such as addition, subtraction, multiplication, 
+                        and division. Built with HTML5, CSS, and JavaScript for seamless performance on both mobile and desktop devices</p>
+                    <a href="https://daneshcalculator.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="siuuu.png" class="port-img">
+                <div class="layer">
+                    <h3>Currency Converter</h3>
+                    <p>A straightforward and efficient currency converter app that provides real-time exchange rates for various currencies, ensuring accurate and quick conversions. Built with HTML5, CSS3, and JavaScript 
+                        for a responsive and 
+                        seamless user experience across mobile and desktop devices.</p>
+                    <a href="https://daneshcurrency.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--Contact Section-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dan.udachia@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0410899839</p>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu (){
+            sidemenu.style.right = "0"
+        }
+        function closemenu (){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx2HQH5LPEWUwbt1conwQWDkI3puvx8RjYEc6GaAEDx6tjgvK6cO-Mi-Ue6nlsoNKGf/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+
+     form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML = "Message Sent Successfully" 
+      setTimeout(function(){
+            msg.innerHTML=""
+            },5000)
+            form.reset()})
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
